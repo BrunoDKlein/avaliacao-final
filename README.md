@@ -1,8 +1,8 @@
-# 🚀 Sistema de Gerenciamento de Criptomoedas
+# Sistema de Gerenciamento de Criptomoedas
+
+API REST para gerenciamento de ativos de criptomoedas, permitindo cadastro, consulta, atualização e remoção de dados.
 
 Este projeto faz parte da avaliação final da matéria de Programação do curso Técnico em TI (2025).
-
-API REST desenvolvida com Spring Boot para cadastro e gerenciamento de criptomoedas.
 
 ## 📌 Tecnologias Utilizadas
 
@@ -30,14 +30,32 @@ O projeto segue o padrão de arquitetura em camadas:
 
 ## 📌 Funcionalidades
 
-- ✅ Cadastrar criptomoeda
-- ✅ Listar todas
-- ✅ Buscar por ID
-- ✅ Buscar por sigla
-- ✅ Editar
-- ✅ Excluir
-- ✅ Validações automáticas
-- ✅ Tratamento global de erros
+- Cadastrar criptomoeda
+- Listar todas
+- Buscar por ID
+- Editar
+- Excluir
+- Converte
+- Validações automáticas
+- Tratamento global de erros
+
+---
+
+## ▶️ Como rodar
+1. Clone o repositório
+2. Configure o banco de dados
+3. Execute a aplicação
+
+---
+
+## 🔗 Endpoints
+
+* POST /api/criptomoedas
+* GET /api/criptomoedas
+* GET /api/criptomoedas/{id}
+* PUT /api/criptomoedas/{id}
+* DELETE /api/criptomoedas/{id}
+* GET /api/criptomoedas/converte/{moeda}/{valor}
 
 ---
 
